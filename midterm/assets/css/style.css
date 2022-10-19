@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-left{
+    font-family: "Italiana";
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#nav-right {
+    display: flex;
+    flex-direction: row;
+    padding-right: 45px;
+}
+
+#restaurant-name {
+    color: white;
+}
+
+.navbar-item {
+    margin-left: 40px;
+    color: white;
+}
+
+.navbar-item:hover {
+    cursor: pointer;
+    color: #e94f37;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#background-picture {
+    background-image: url('../img/inside.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-text {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#special-combo {
+    width: 100%;
+    background-color: #d34d38;
+    position: relative;
+    top:60px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.combo-description {
+    color: white;
+}
+
+#food-selections {
+    margin: 90px 80px 30px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.food-type {
+    font-weight: bolder;
+    color: black;
+}
+
+.food-type:hover {
+    cursor: pointer;
+    color: rgb(25, 111, 36);
+
+}
+
+#type-choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice-name {
+    font-weight: bold;
+}
+
+#food-images {
+    background-color: rgb(184, 208, 193);
+    margin-top: 20px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+#image-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#image-captions {
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
