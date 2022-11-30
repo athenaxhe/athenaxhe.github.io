@@ -1,0 +1,112 @@
+body {
+	margin: 0px;
+	background-image: url("../img/shrinelight.png");
+	background-position: center;
+}
+
+#title {
+	font-size: 50px;
+	text-align: center;
+	margin: 30px;
+	margin-bottom: 20px;
+	letter-spacing: 5px;
+	color: black;
+}
+
+#image-container {
+	overflow: hidden;
+	position: relative;
+	width: 500px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+#selection-container {
+	position: relative;
+	text-align: center;
+	top: 30px;
+	padding: 10px;
+}
+
+.image-selection {
+	cursor: pointer;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+
+.image-selection:hover {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #51361A;
+	height: 90px;
+}
+
+#upper-image {
+	z-index: 100;
+	position: absolute;
+	height: 192px;
+	top: 5px;
+	left: 150px;
+	transition: 0.5s;
+	border-style: solid;
+	border-width: 8px;
+	border-color: #51361A;
+}
+
+#upper-image:hover {
+	transform: scale(1.05);
+}
+
+
+.image {
+	z-index: 10;
+	position: absolute;
+	display: none;
+	transition: 0.5s;
+}
+
+.image:hover {
+	transform: scale(1.03);
+}
+
+#mushu1, #mushu2, #mushu3 {
+	left: 175px;
+	top: 295px;
+	height: 140px;
+	border-style: solid;
+	border-width: 6px;
+	border-color: #51361A;
+}
+
+.button {
+	position: absolute;
+	font-size: 24px;
+	color: white;
+	background: #71503A;
+	padding: 15px;
+	letter-spacing: 3px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.button:hover {
+	cursor: pointer;
+	background: #5b3e31;
+	transform: scale(1.04);
+}
+
+#remove-button {
+	right: 15%;
+	bottom: 40%;
+}
+
+#dark {
+	right: 0%;
+	top: 0%
+}
+
+.darkmode {
+	background-image: url("../img/shrinedark.png");
+}
